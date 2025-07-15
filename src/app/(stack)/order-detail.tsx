@@ -40,10 +40,8 @@ export default function OrderDetail() {
   const [error, setError] = useState<string | null>(null);
 
   const statusColors = {
-    PENDING: colors.yellow,
-    SHIPPED: colors.blue,
-    DELIVERED: colors.green,
-    CANCELLED: colors.red
+    PENDING: colors.buttonPrimary,
+
   };
 
   useEffect(() => {
